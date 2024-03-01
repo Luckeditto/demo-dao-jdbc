@@ -53,4 +53,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para repo
 Esse projeto foi desenvolvido durante o curso Java COMPLETO Programação Orientada a Objetos + Projetos ministrado pelo Professor Nélio Alves segue abaixo o link do curso (NÃO é uma propaganda/parceria/publicidade).
 https://www.udemy.com/course/java-curso-completo/
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT.
