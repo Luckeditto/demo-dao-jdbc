@@ -1,6 +1,6 @@
 package application;
 
-import java.util.Scanner;
+import java.util.List;
 
 import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
@@ -10,13 +10,9 @@ public class Program2 {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
-
 		DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
-		System.out.println("===== TEST 1: department insert");
-		Department department = new Department(10, "Services");
-		departmentDao.insert(department);
-		System.out.println("Inserted successfully! Department id: " + department.getId());
+		List<Department> departmentList = departmentDao.findAll();
+		System.out.println(departmentList);
 
 	}
 
